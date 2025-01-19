@@ -1,0 +1,31 @@
+.painel-favoritos {
+    margin-top: 20px;
+  }
+  
+  .favoritos-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .favorito-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .favorito-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 8px;
+  }
+  
+  .favorito-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
