@@ -25,7 +25,6 @@ src/
   ├── assets/
   ├── components/
   ├── helpers/
-  ├── hooks/
   ├── pages/
   │   ├── home/
   │   ├── sobre/
@@ -37,7 +36,17 @@ src/
 
 ## :hammer: Funcionalidades do Projeto
 
+- Tela de pesquisa de atletas de variados esportes
+- Sistema de cards de atleta com nome e foto
+- Sistema para favoritar atletas com um painel separado de atletas favoritados
+
 ### 🛠 Tecnologias
 
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/171964865?v=4" width=115><br><sub>Jhonatan Sousa</sub>](https://github.com/JohnOliverz) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/171964865?v=4" width=115><br><sub>Jhonatan Sousa</sub>](https://github.com/JohnOliverz) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/171964865?v=4" width=115><br><sub>Jhonatan Sousa</sub>](https://github.com/JohnOliverz) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/171964865?v=4" width=115><br><sub>Jhonatan Sousa</sub>](https://github.com/JohnOliverz) |
+- **React**
+- **Node.js**
+- **Vercel**
+
+### 👥 Equipe
+
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/171964865?v=4" width=115><br><sub>Jhonatan Sousa</sub>](https://github.com/JohnOliverz) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/106767229?s=400&u=d91f527c50979c457174cc70127a0411747c70e5&v=4" width=115><br><sub>Nicolas Ferreira</sub>](https://github.com/Niccofs) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/171964865?v=4" width=115><br><sub>Jhonatan Sousa</sub>](https://github.com/JohnOliverz) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/171964865?v=4" width=115><br><sub>Jhonatan Sousa</sub>](https://github.com/JohnOliverz) |
 | :---: | :---: | :---: | :---: |
