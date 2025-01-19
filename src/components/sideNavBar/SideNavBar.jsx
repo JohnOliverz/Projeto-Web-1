@@ -17,8 +17,8 @@ export class SideNavBar extends React.Component {
                             <div className="menu-separator"></div>
                         </h4>
                         <li>
-                            <Link to="/">
-                            <span className="material-symbols-outlined">home</span>Home</Link>
+                            <Link to="/"><span className="material-symbols-outlined">home</span>Home</Link>
+                            <Link to="/favoritos"><span className="material-symbols-outlined">star</span>Favoritos</Link>
                         </li>
 
                     </ul>

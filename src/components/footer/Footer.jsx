@@ -5,7 +5,7 @@ export class Footer extends React.Component {
     render() {
         return (
             <>
-                <section className="footer">
+                <footer className="footer">
                     <div className="footer-row">
                         <div className="footer-col">
                             <h4>Informações </h4>
@@ -16,7 +16,7 @@ export class Footer extends React.Component {
                             </ul>
                         </div>
                     </div>
-                </section>
+                </footer>
             </>
         );
     }
