@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../../assets/soccer.svg"
 import { SideNavBar } from "../../components/sideNavBar/SideNavBar";
 import { Footer } from "../../components/footer/Footer";
-import CardAtlet from "../../components/cardAtleta/CardAtleta";
+import CardAtlet from "../../components/cardAtletas/CardAtleta";
 
 function Favorites({ favoritos, setFavoritos }) {
   const removerDosFavoritos = (id) => {

@@ -3,7 +3,7 @@ import logo from "../../assets/question.png"
 import { SideNavBar } from "../../components/sideNavBar/SideNavBar";
 import { Footer } from "../../components/footer/Footer";
 import SearchPlayer from "../../components/SearchPlayer/SearchPlayer";
-import CardAtlet from "../../components/cardAtleta/CardAtleta";
+import CardAtlet from "../../components/cardAtletas/CardAtleta";
 
 function Home({ favoritos, setFavoritos }) {
   const [jogadores, setJogadores] = useState([]);
