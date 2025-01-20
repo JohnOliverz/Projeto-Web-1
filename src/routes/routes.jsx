@@ -12,7 +12,7 @@ function AppRoutes() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home setFavoritos={setFavoritos} favoritos={favoritos} setJogadores={setJogadores} />}/>
-        <Route path="/favoritos" element={<Favoritos favoritos={favoritos} />} />
+        <Route path="/favoritos" element={<Favoritos favoritos={favoritos} setFavoritos={setFavoritos} />} />
       </Routes>
     </BrowserRouter>
   );
