@@ -11,10 +11,7 @@ function AppRoutes() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route
-          path="/"
-          element={<Home setFavoritos={setFavoritos} favoritos={favoritos} setJogadores={setJogadores} />}
-        />
+        <Route path="/" element={<Home setFavoritos={setFavoritos} favoritos={favoritos} setJogadores={setJogadores} />}/>
         <Route path="/favoritos" element={<Favoritos favoritos={favoritos} />} />
       </Routes>
     </BrowserRouter>
