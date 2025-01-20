@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"; // Substitua pela sua chave válida
+const API_KEY = "706986e0b5f1aca0048638b433b30669"; // Substitua pela sua chave válida
 const BASE_URL = "https://v3.football.api-sports.io";
 
 export const buscarJogadores = async (nome) => {

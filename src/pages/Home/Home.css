@@ -1,0 +1,20 @@
+.resultados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    font: 600 bold black;
+    text-align: center; /* Centraliza o texto dentro da div */
+    min-height: 30vh; /* Garante altura mínima para centralizar */
+    max-height: 15vh;
+    gap: 20px; /* Espaçamento entre os elementos */
+  }
+  
+  .logo {
+    max-width: 100%;
+    height: auto; /* Mantém a proporção da imagem */
+    max-height: 300px; /* Limita a altura máxima */
+    object-fit: contain; /* Ajusta a imagem sem cortar */
+    
+  }
+  
