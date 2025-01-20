@@ -1,41 +1,95 @@
+/* Container dos cards */
+.resultados {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centraliza os cards */
+  gap: 20px; /* Espaçamento entre os cards */
+  margin-top: 40px;
+  margin-left: 80px;
+  margin-bottom: 50px;
+}
+
+/* Estilização de cada card */
 .card-atleta {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 16px;
-    margin: 8px;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .card-image {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 8px;
-  }
-  
-  .card-title {
-    font-size: 18px;
-    font-weight: bold;
-    margin: 8px 0;
-  }
-  
-  .card-sport {
-    font-size: 14px;
-    color: #666;
-  }
-  
-  .card-button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 8px 12px;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .card-button:hover {
-    background-color: #0056b3;
-  }
-  
+  width: 260px; /* Largura fixa dos cards */
+  background-color: #f9f9f9; 
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 15px;
+  text-align: left; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+}
+
+/* Imagem do jogador */
+.card-atleta img {
+  align-self: center;
+  width: 90%;
+  height: auto;
+  border-radius: 8px; /* Cantos arredondados para a imagem */
+  margin-bottom: 10px;
+}
+
+/* Nome do jogador */
+.card-atleta h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 0 0 10px 0; /* Espaço inferior */
+  text-align: left; /* Alinha o nome à esquerda */
+}
+
+/* Detalhes do jogador */
+.card-atleta p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+/* Botão de adicionar aos favoritos */
+.card-atleta button {
+  display: flex;
+  align-content: center;
+  width: 100%;
+  margin-top: 20px;
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #279419; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.card-atleta button:hover {
+  background-color: #09521a; 
+}
+
+/* Estilo do botão */
+.favoritar-botao {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #09521a;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.favoritar-botao:hover {
+  background-color: #09521a;
+}
+
+/* Estilo do ícone */
+.material-icons {
+  font-size: 16px;
+  vertical-align: middle;
+}

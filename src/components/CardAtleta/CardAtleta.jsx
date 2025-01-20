@@ -1,20 +1,31 @@
 import React from "react";
 import "./CardAtleta.css";
 
-const CardAtleta = ({ atleta, adicionarAosFavoritos }) => {
+const CardAtlet = ({ imagem, nome, idade, nacionalidade, peso, altura, numero, posicao, onFavoritar, onRemover }) => {
   return (
     <div className="card-atleta">
-      <img src={atleta.image} alt={atleta.name} className="card-image" />
-      <h3 className="card-title">{atleta.name}</h3>
-      <p className="card-sport">Esporte: {atleta.sport}</p>
-      <button
-        className="card-button"
-        onClick={() => adicionarAosFavoritos(atleta)}
-      >
-        Adicionar aos favoritos
-      </button>
+      <img src={imagem} alt={nome} className="card-atleta-imagem" />
+      <div className="card-atleta-info">
+        <h3 className="card-atleta-nome">{nome}</h3>
+        <p><strong>Idade:</strong> {idade}</p>
+        <p><strong>Nacionalidade:</strong> {nacionalidade}</p>
+        <p><strong>Peso:</strong> {peso}</p>
+        <p><strong>Altura:</strong> {altura}</p>
+        <p><strong>Número:</strong> {numero}</p>
+        <p><strong>Posição:</strong> {posicao}</p>
+        {onFavoritar && (
+          <button className="favoritar-botao" onClick={onFavoritar}>
+          <span className="material-symbols-outlined">star</span> Adicionar aos Favoritos
+          </button>
+        )}
+        {onRemover && (
+          <button className="remover-botao" onClick={onRemover}>
+          <span className="material-symbols-outlined">star</span> Remover dos Favoritos
+          </button>
+        )}
+      </div>
     </div>
   );
 };
 
-export default CardAtleta;
+export default CardAtlet;
